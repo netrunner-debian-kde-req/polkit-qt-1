@@ -1,0 +1,5 @@
+polkit-qt-1 (0.95.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #nnnn)
+
+ -- Fathi Boudra <fabo@debian.org>  Fri, 15 Jan 2010 12:50:13 +0100
