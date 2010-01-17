@@ -6,4 +6,4 @@
 %:
 	dh --list-missing $@
 
-.PHONY: dh_auto_test
+.PHONY: override_dh_auto_test
