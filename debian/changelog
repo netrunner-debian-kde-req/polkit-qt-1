@@ -1,3 +1,9 @@
+polkit-qt-1 (0.95.1-2) UNRELEASED; urgency=low
+
+  * Update debian/control: add policykit-1 dependency.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 21 Feb 2010 18:43:16 +0100
+
 polkit-qt-1 (0.95.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #565395)
