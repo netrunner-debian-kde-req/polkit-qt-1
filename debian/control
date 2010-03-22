@@ -2,9 +2,9 @@ Source: polkit-qt-1
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
-Build-Depends: debhelper (>= 7), cmake, automoc, libqt4-dev,
+Build-Depends: debhelper (>= 7.4.15), cmake, automoc, libqt4-dev,
  libpolkit-agent-1-dev, libpolkit-gobject-1-dev
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Section: libs
 
 Package: libpolkit-qt-1-dev
@@ -27,7 +27,7 @@ Description: PolicyKit-qt-1 development files
 Package: libpolkit-qt-1-0
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, policykit-1
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: PolicyKit-qt-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
