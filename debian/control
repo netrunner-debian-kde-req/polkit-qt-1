@@ -6,6 +6,8 @@ Build-Depends: debhelper (>= 7.4.15), cmake, automoc, libqt4-dev,
  libpolkit-agent-1-dev, libpolkit-gobject-1-dev
 Standards-Version: 3.8.4
 Section: libs
+Vcs-Git: git://git.debian.org/pkg-kde/kde-req/polkit-qt-1.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/polkit-qt-1.git
 
 Package: libpolkit-qt-1-dev
 Section: libdevel
