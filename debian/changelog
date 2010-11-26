@@ -1,8 +1,11 @@
-polkit-qt-1 (0.95.1-2) UNRELEASED; urgency=low
+polkit-qt-1 (0.98.1-0r1) UNRELEASED; urgency=low
 
+  New 0.98.1 upstream release.
+
+  [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:33:30 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 16:08:03 +0100
 
 polkit-qt-1 (0.95.1-1) unstable; urgency=low
 
