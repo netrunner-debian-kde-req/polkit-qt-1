@@ -5,6 +5,9 @@ polkit-qt-1 (0.98.1-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
 
+  [ Didier Raboud ]
+  * Bump B-D of libpolkit to >= 0.98.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 16:08:03 +0100
 
 polkit-qt-1 (0.95.1-1) unstable; urgency=low
