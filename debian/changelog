@@ -8,6 +8,9 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
   [ Didier Raboud ]
   * Bump B-D of libpolkit to >= 0.98.
 
+  [ José Manuel Santamaría Lema ]
+  * Update installed files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 16:08:03 +0100
 
 polkit-qt-1 (0.95.1-1) unstable; urgency=low
