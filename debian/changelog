@@ -4,6 +4,7 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
+  * Switch debian/rules engine to qt-kde-team/2/*.
 
   [ Didier Raboud ]
   * Bump B-D of libpolkit to >= 0.98.
