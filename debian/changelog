@@ -1,6 +1,6 @@
 polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
 
-  New upstream release.
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
