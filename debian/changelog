@@ -1,4 +1,4 @@
-polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
+polkit-qt-1 (0.99.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -21,7 +21,7 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 16:08:03 +0100
+ -- Modestas Vainius <modax@debian.org>  Mon, 14 Mar 2011 01:03:06 +0200
 
 polkit-qt-1 (0.95.1-1) unstable; urgency=low
 
