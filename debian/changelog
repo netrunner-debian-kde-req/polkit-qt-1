@@ -9,6 +9,7 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
   * Remove dupe "Section" field from debian/control.
   * Include verbatim BSD license to debian/copyright.
   * Add symbol file for libpolkit-qt-1-0. Based on v0.95.1.
+  * Override lintian libpolkit-qt-1-0: package-name-doesnt-match-sonames.
 
   [ Didier Raboud ]
   * Bump B-D of libpolkit to >= 0.98.
