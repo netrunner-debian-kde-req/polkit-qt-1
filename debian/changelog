@@ -13,6 +13,7 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * SONAME bumped: rename libpolkit-qt-1-0 to libpolkit-qt-1-1.
   * Add symbol file for libpolkit-qt-1-1.
+  * Update debian/copyright.
 
   [ Didier Raboud ]
   * Bump B-D of libpolkit to >= 0.98.
