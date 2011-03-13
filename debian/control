@@ -1,7 +1,7 @@
 Source: polkit-qt-1
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.11), automoc, libqt4-dev,
  libpolkit-agent-1-dev (>= 0.98), libpolkit-gobject-1-dev (>= 0.98)
 Standards-Version: 3.9.1
