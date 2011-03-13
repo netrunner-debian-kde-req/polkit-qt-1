@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 0.95.1 alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
-libpolkit-qt-agent-1.so.0 libpolkit-qt-1-0 #MINVER#
+libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
  (arch=armel hppa sparc)_ZN10QByteArrayD1Ev@Base 0.95.1
  (optional=templinst)_ZN20QGlobalStaticDeleterIN9PolkitQt15Agent21ListenerAdapterHelperEED1Ev@Base 0.95.1
@@ -83,7 +83,7 @@ libpolkit-qt-agent-1.so.0 libpolkit-qt-1-0 #MINVER#
  _ZTVN9PolkitQt15Agent8ListenerE@Base 0.95.1
  polkit_qt_listener_get_type@Base 0.95.1
  polkit_qt_listener_new@Base 0.95.1
-libpolkit-qt-core-1.so.0 libpolkit-qt-1-0 #MINVER#
+libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
  (optional=templinst)_Z13qvariant_castI13QDBusArgumentET_RK8QVariant@Base 0.95.1
  (optional=templinst)_Z13qvariant_castI15QDBusObjectPathET_RK8QVariant@Base 0.95.1
@@ -296,7 +296,7 @@ libpolkit-qt-core-1.so.0 libpolkit-qt-1-0 #MINVER#
  (optional=templinst)_ZZN11QMetaTypeIdI15QDBusObjectPathE14qt_metatype_idEvE11metatype_id@Base 0.95.1
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIPN9PolkitQt117ActionDescriptionEEE14qt_metatype_idEvE11metatype_id@Base 0.95.1
  (optional=templinst)_ZZN11QMetaTypeIdIN9PolkitQt19Authority6ResultEE14qt_metatype_idEvE11metatype_id@Base 0.95.1
-libpolkit-qt-gui-1.so.0 libpolkit-qt-1-0 #MINVER#
+libpolkit-qt-gui-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
  (optional=templinst)_ZN5QListIP15QAbstractButtonE13detach_helperEv@Base 0.95.1
  (optional=templinst)_ZN5QListIP15QAbstractButtonE6appendERKS1_@Base 0.95.1

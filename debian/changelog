@@ -12,6 +12,7 @@ polkit-qt-1 (0.99.0-0r1) UNRELEASED; urgency=low
   * Override lintian libpolkit-qt-1-0: package-name-doesnt-match-sonames.
   * Use more failsafe wildcards in libpolkit-qt-1-0.install.
   * Add myself to Uploaders.
+  * SONAME bumped: rename libpolkit-qt-1-0 to libpolkit-qt-1-1.
 
   [ Didier Raboud ]
   * Bump B-D of libpolkit to >= 0.98.
