@@ -57,8 +57,8 @@ libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZTVN9PolkitQt15Agent8ListenerE@Base 0.99.0
 libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
- (arch=armel hppa sparc)_ZN15QBasicAtomicInt3refEv@Base 0.99.0
- (arch=armel hppa sparc)_ZN15QDBusObjectPathD1Ev@Base 0.99.0
+ (optional=external|arch=armel hppa sparc)_ZN15QBasicAtomicInt3refEv@Base 0.99.0
+ (optional=external|arch=armel hppa sparc)_ZN15QDBusObjectPathD1Ev@Base 0.99.0
  (optional=templinst|arch=armel hppa sparc)_ZN5QListIPN9PolkitQt122TemporaryAuthorizationEEC1ERKS3_@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentity6setUidEj@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentityC1EP15_PolkitUnixUser@Base 0.99.0
