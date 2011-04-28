@@ -1,25 +1,6 @@
 # SymbolsHelper-Confirmed: 0.99.0 amd64
 libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
- (arch=amd64 armel hppa sparc)_ZN10QByteArrayD1Ev@Base 0.99.0
- _ZN10QByteArrayD2Ev@Base 0.99.0
- (optional=templinst)_ZN20QGlobalStaticDeleterIN9PolkitQt15Agent21ListenerAdapterHelperEED1Ev@Base 0.99.0
- (optional=templinst)_ZN20QGlobalStaticDeleterIN9PolkitQt15Agent21ListenerAdapterHelperEED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt18IdentityEE18detach_helper_growEii@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt18IdentityEE6appendERKS1_@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt18IdentityEED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt18IdentityEED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEE13detach_helperEi@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEE18detach_helper_growEii@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEE6appendERKS3_@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEE9removeOneERKS3_@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIPN9PolkitQt15Agent8ListenerEED2Ev@Base 0.99.0
- _ZN6QDebugD1Ev@Base 0.99.0
- _ZN6QDebugD2Ev@Base 0.99.0
- _ZN7QStringD1Ev@Base 0.99.0
- _ZN7QStringD2Ev@Base 0.99.0
  _ZN9PolkitQt15Agent11AsyncResult12setCompletedEv@Base 0.99.0
  _ZN9PolkitQt15Agent11AsyncResult8setErrorERK7QString@Base 0.99.0
  _ZN9PolkitQt15Agent11AsyncResultC1EP19_GSimpleAsyncResult@Base 0.99.0
@@ -27,21 +8,6 @@ libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt15Agent11AsyncResultD0Ev@Base 0.99.0
  _ZN9PolkitQt15Agent11AsyncResultD1Ev@Base 0.99.0
  _ZN9PolkitQt15Agent11AsyncResultD2Ev@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter11addListenerEPNS0_8ListenerE@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter11qt_metacastEPKc@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter12cancelled_cbEP20_PolkitAgentListener@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter12findListenerEP20_PolkitAgentListener@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter14removeListenerEPNS0_8ListenerE@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter16staticMetaObjectE@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter42polkit_qt_listener_initiate_authenticationEP20_PolkitAgentListenerPKcS5_S5_P14_PolkitDetailsS5_P6_GListP13_GCancellableP19_GSimpleAsyncResult@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter49polkit_qt_listener_initiate_authentication_finishEP20_PolkitAgentListenerP13_GAsyncResultPP7_GError@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapter8instanceEv@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapterC1EP7QObject@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapterC2EP7QObject@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapterD0Ev@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapterD1Ev@Base 0.99.0
- _ZN9PolkitQt15Agent15ListenerAdapterD2Ev@Base 0.99.0
  _ZN9PolkitQt15Agent7Session11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.99.0
  _ZN9PolkitQt15Agent7Session11qt_metacastEPKc@Base 0.99.0
  _ZN9PolkitQt15Agent7Session11setResponseERK7QString@Base 0.99.0
@@ -78,86 +44,22 @@ libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt15Agent8ListenerD0Ev@Base 0.99.0
  _ZN9PolkitQt15Agent8ListenerD1Ev@Base 0.99.0
  _ZN9PolkitQt15Agent8ListenerD2Ev@Base 0.99.0
- (optional=templinst)_ZNK5QListIPN9PolkitQt15Agent8ListenerEE7indexOfERKS3_i@Base 0.99.0
- _ZNK9PolkitQt15Agent15ListenerAdapter10metaObjectEv@Base 0.99.0
  _ZNK9PolkitQt15Agent7Session10metaObjectEv@Base 0.99.0
  _ZNK9PolkitQt15Agent8Listener10metaObjectEv@Base 0.99.0
  _ZTIN9PolkitQt15Agent11AsyncResultE@Base 0.99.0
- _ZTIN9PolkitQt15Agent15ListenerAdapterE@Base 0.99.0
  _ZTIN9PolkitQt15Agent7SessionE@Base 0.99.0
  _ZTIN9PolkitQt15Agent8ListenerE@Base 0.99.0
  _ZTSN9PolkitQt15Agent11AsyncResultE@Base 0.99.0
- _ZTSN9PolkitQt15Agent15ListenerAdapterE@Base 0.99.0
  _ZTSN9PolkitQt15Agent7SessionE@Base 0.99.0
  _ZTSN9PolkitQt15Agent8ListenerE@Base 0.99.0
  _ZTVN9PolkitQt15Agent11AsyncResultE@Base 0.99.0
- _ZTVN9PolkitQt15Agent15ListenerAdapterE@Base 0.99.0
  _ZTVN9PolkitQt15Agent7SessionE@Base 0.99.0
  _ZTVN9PolkitQt15Agent8ListenerE@Base 0.99.0
- polkit_qt_listener_get_type@Base 0.99.0
- polkit_qt_listener_new@Base 0.99.0
 libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
- (optional=templinst)_Z17qRegisterMetaTypeI13QDBusArgumentEiPKcPT_@Base 0.99.0
- (optional=templinst)_Z17qRegisterMetaTypeI15QDBusObjectPathEiPKcPT_@Base 0.99.0
- (optional=templinst)_Z17qRegisterMetaTypeI5QListIN9PolkitQt117ActionDescriptionEEEiPKcPT_@Base 0.99.0
- (optional=templinst)_Z17qRegisterMetaTypeIN9PolkitQt19Authority6ResultEEiPKcPT_@Base 0.99.0
- (optional=templinst)_Z21qMetaTypeDeleteHelperI13QDBusArgumentEvPT_@Base 0.99.0
- (optional=templinst)_Z21qMetaTypeDeleteHelperI15QDBusObjectPathEvPT_@Base 0.99.0
- (optional=templinst)_Z21qMetaTypeDeleteHelperI5QListIN9PolkitQt117ActionDescriptionEEEvPT_@Base 0.99.0
- (optional=templinst)_Z21qMetaTypeDeleteHelperIN9PolkitQt19Authority6ResultEEvPT_@Base 0.99.0
- (optional=templinst)_Z24qMetaTypeConstructHelperI13QDBusArgumentEPvPKT_@Base 0.99.0
- (optional=templinst)_Z24qMetaTypeConstructHelperI15QDBusObjectPathEPvPKT_@Base 0.99.0
- (optional=templinst)_Z24qMetaTypeConstructHelperI5QListIN9PolkitQt117ActionDescriptionEEEPvPKT_@Base 0.99.0
- (optional=templinst)_Z24qMetaTypeConstructHelperIN9PolkitQt19Authority6ResultEEPvPKT_@Base 0.99.0
- _ZN10QByteArrayD1Ev@Base 0.99.0
- _ZN10QByteArrayD2Ev@Base 0.99.0
- _ZN10QDBusErrorD1Ev@Base 0.99.0
- _ZN10QDBusErrorD2Ev@Base 0.99.0
  (arch=armel hppa sparc)_ZN15QBasicAtomicInt3refEv@Base 0.99.0
  (arch=armel hppa sparc)_ZN15QDBusObjectPathD1Ev@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt117ActionDescription4DataEE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt117ActionDescription4DataEED1Ev@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt117ActionDescription4DataEED2Ev@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt122TemporaryAuthorization4DataEE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt122TemporaryAuthorization4DataEED1Ev@Base 0.99.0
- (optional=templinst)_ZN18QSharedDataPointerIN9PolkitQt122TemporaryAuthorization4DataEED2Ev@Base 0.99.0
- (optional=templinst)_ZN20QGlobalStaticDeleterIN9PolkitQt115AuthorityHelperEED1Ev@Base 0.99.0
- (optional=templinst)_ZN20QGlobalStaticDeleterIN9PolkitQt115AuthorityHelperEED2Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt17Details4DataEED1Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt17Details4DataEED2Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt17Subject4DataEED1Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt17Subject4DataEED2Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt18Identity4DataEED1Ev@Base 0.99.0
- (optional=templinst)_ZN28QExplicitlySharedDataPointerIN9PolkitQt18Identity4DataEED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 0.99.0
- (optional=templinst|arch=amd64 armel hppa sparc)_ZN5QListI7QStringE5clearEv@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListI7QStringED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListI8QVariantE13detach_helperEi@Base 0.99.0
- (optional=templinst|arch=amd64 armel hppa sparc)_ZN5QListI8QVariantE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListI8QVariantED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListI8QVariantED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEE13detach_helperEi@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEE18detach_helper_growEii@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEE6appendERKS1_@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt117ActionDescriptionEED2Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEE13detach_helperEi@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEE18detach_helper_growEii@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEE6appendERKS1_@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIN9PolkitQt122TemporaryAuthorizationEED2Ev@Base 0.99.0
  (optional=templinst|arch=armel hppa sparc)_ZN5QListIPN9PolkitQt122TemporaryAuthorizationEEC1ERKS3_@Base 0.99.0
- _ZN6QDebugD1Ev@Base 0.99.0
- _ZN6QDebugD2Ev@Base 0.99.0
- _ZN7QStringD1Ev@Base 0.99.0
- _ZN7QStringD2Ev@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentity6setUidEj@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentityC1EP15_PolkitUnixUser@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentityC1ERK7QString@Base 0.99.0
@@ -167,9 +69,6 @@ libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt116UnixUserIdentityC2ERK7QString@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentityC2Ej@Base 0.99.0
  _ZN9PolkitQt116UnixUserIdentityC2Ev@Base 0.99.0
- _ZN9PolkitQt117ActionDescription4DataD0Ev@Base 0.99.0
- _ZN9PolkitQt117ActionDescription4DataD1Ev@Base 0.99.0
- _ZN9PolkitQt117ActionDescription4DataD2Ev@Base 0.99.0
  _ZN9PolkitQt117ActionDescriptionC1EP24_PolkitActionDescription@Base 0.99.0
  _ZN9PolkitQt117ActionDescriptionC1ERKS0_@Base 0.99.0
  _ZN9PolkitQt117ActionDescriptionC1Ev@Base 0.99.0
@@ -207,8 +106,6 @@ libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt120SystemBusNameSubjectC1ERK7QString@Base 0.99.0
  _ZN9PolkitQt120SystemBusNameSubjectC2EP20_PolkitSystemBusName@Base 0.99.0
  _ZN9PolkitQt120SystemBusNameSubjectC2ERK7QString@Base 0.99.0
- _ZN9PolkitQt120actionsToListAndFreeEP6_GList@Base 0.99.0
- _ZN9PolkitQt120polkitResultToResultEP26_PolkitAuthorizationResult@Base 0.99.0
  _ZN9PolkitQt122TemporaryAuthorization6revokeEv@Base 0.99.0
  _ZN9PolkitQt122TemporaryAuthorizationC1EP29_PolkitTemporaryAuthorization@Base 0.99.0
  _ZN9PolkitQt122TemporaryAuthorizationC1ERKS0_@Base 0.99.0
@@ -343,29 +240,14 @@ libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZNK9PolkitQt19Authority15polkitAuthorityEv@Base 0.99.0
  _ZNK9PolkitQt19Authority8hasErrorEv@Base 0.99.0
  _ZNK9PolkitQt19Authority9lastErrorEv@Base 0.99.0
- _ZTI11QSharedData@Base 0.99.0
  _ZTIN9PolkitQt117ActionDescription4DataE@Base 0.99.0
  _ZTIN9PolkitQt19AuthorityE@Base 0.99.0
- _ZTS11QSharedData@Base 0.99.0
  _ZTSN9PolkitQt117ActionDescription4DataE@Base 0.99.0
  _ZTSN9PolkitQt19AuthorityE@Base 0.99.0
  _ZTVN9PolkitQt117ActionDescription4DataE@Base 0.99.0
  _ZTVN9PolkitQt19AuthorityE@Base 0.99.0
- (optional=templinst)_ZZN11QMetaTypeIdI13QDBusArgumentE14qt_metatype_idEvE11metatype_id@Base 0.99.0
- (optional=templinst)_ZZN11QMetaTypeIdI15QDBusObjectPathE14qt_metatype_idEvE11metatype_id@Base 0.99.0
- (optional=templinst)_ZZN11QMetaTypeIdI5QListIN9PolkitQt117ActionDescriptionEEE14qt_metatype_idEvE11metatype_id@Base 0.99.0
- (optional=templinst)_ZZN11QMetaTypeIdIN9PolkitQt19Authority6ResultEE14qt_metatype_idEvE11metatype_id@Base 0.99.0
 libpolkit-qt-gui-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
- (optional=templinst)_ZN5QListIP15QAbstractButtonE13detach_helperEi@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonE13detach_helperEv@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonE18detach_helper_growEii@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonE6appendERKS1_@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonE9removeOneERKS1_@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonED1Ev@Base 0.99.0
- (optional=templinst)_ZN5QListIP15QAbstractButtonED2Ev@Base 0.99.0
- _ZN7QStringD1Ev@Base 0.99.0
- _ZN7QStringD2Ev@Base 0.99.0
  _ZN9PolkitQt13Gui12ActionButton11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.99.0
  _ZN9PolkitQt13Gui12ActionButton11qt_metacastEPKc@Base 0.99.0
  _ZN9PolkitQt13Gui12ActionButton16staticMetaObjectE@Base 0.99.0
@@ -379,27 +261,6 @@ libpolkit-qt-gui-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt13Gui12ActionButtonD0Ev@Base 0.99.0
  _ZN9PolkitQt13Gui12ActionButtonD1Ev@Base 0.99.0
  _ZN9PolkitQt13Gui12ActionButtonD2Ev@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons10setButtonsERK5QListIP15QAbstractButtonE@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons11qt_metacastEPKc@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons12removeButtonEP15QAbstractButton@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons16staticMetaObjectE@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtons9addButtonEP15QAbstractButton@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtonsC1ERK5QListIP15QAbstractButtonERK7QStringP7QObject@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtonsC2ERK5QListIP15QAbstractButtonERK7QStringP7QObject@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtonsD0Ev@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtonsD1Ev@Base 0.99.0
- _ZN9PolkitQt13Gui13ActionButtonsD2Ev@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivate12removeButtonEP15QAbstractButton@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivate12updateButtonEv@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivate13streamClickedEb@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivate9addButtonEP15QAbstractButton@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivateD0Ev@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivateD1Ev@Base 0.99.0
- _ZN9PolkitQt13Gui19ActionButtonPrivateD2Ev@Base 0.99.0
- _ZN9PolkitQt13Gui20ActionButtonsPrivateD0Ev@Base 0.99.0
- _ZN9PolkitQt13Gui20ActionButtonsPrivateD1Ev@Base 0.99.0
- _ZN9PolkitQt13Gui20ActionButtonsPrivateD2Ev@Base 0.99.0
  _ZN9PolkitQt13Gui6Action10authorizedEv@Base 0.99.0
  _ZN9PolkitQt13Gui6Action10setCheckedEb@Base 0.99.0
  _ZN9PolkitQt13Gui6Action10setEnabledEb6QFlagsINS1_5StateEE@Base 0.99.0
@@ -426,11 +287,8 @@ libpolkit-qt-gui-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZN9PolkitQt13Gui6ActionD0Ev@Base 0.99.0
  _ZN9PolkitQt13Gui6ActionD1Ev@Base 0.99.0
  _ZN9PolkitQt13Gui6ActionD2Ev@Base 0.99.0
- (optional=templinst)_ZNK5QListIP15QAbstractButtonE7indexOfERKS1_i@Base 0.99.0
  _ZNK9PolkitQt13Gui12ActionButton10metaObjectEv@Base 0.99.0
  _ZNK9PolkitQt13Gui12ActionButton6buttonEv@Base 0.99.0
- _ZNK9PolkitQt13Gui13ActionButtons10metaObjectEv@Base 0.99.0
- _ZNK9PolkitQt13Gui13ActionButtons7buttonsEv@Base 0.99.0
  _ZNK9PolkitQt13Gui6Action10metaObjectEv@Base 0.99.0
  _ZNK9PolkitQt13Gui6Action2isERK7QString@Base 0.99.0
  _ZNK9PolkitQt13Gui6Action4iconENS1_5StateE@Base 0.99.0
@@ -443,17 +301,8 @@ libpolkit-qt-gui-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZNK9PolkitQt13Gui6Action9targetPIDEv@Base 0.99.0
  _ZNK9PolkitQt13Gui6Action9whatsThisENS1_5StateE@Base 0.99.0
  _ZTIN9PolkitQt13Gui12ActionButtonE@Base 0.99.0
- _ZTIN9PolkitQt13Gui13ActionButtonsE@Base 0.99.0
- _ZTIN9PolkitQt13Gui19ActionButtonPrivateE@Base 0.99.0
- _ZTIN9PolkitQt13Gui20ActionButtonsPrivateE@Base 0.99.0
  _ZTIN9PolkitQt13Gui6ActionE@Base 0.99.0
  _ZTSN9PolkitQt13Gui12ActionButtonE@Base 0.99.0
- _ZTSN9PolkitQt13Gui13ActionButtonsE@Base 0.99.0
- _ZTSN9PolkitQt13Gui19ActionButtonPrivateE@Base 0.99.0
- _ZTSN9PolkitQt13Gui20ActionButtonsPrivateE@Base 0.99.0
  _ZTSN9PolkitQt13Gui6ActionE@Base 0.99.0
  _ZTVN9PolkitQt13Gui12ActionButtonE@Base 0.99.0
- _ZTVN9PolkitQt13Gui13ActionButtonsE@Base 0.99.0
- _ZTVN9PolkitQt13Gui19ActionButtonPrivateE@Base 0.99.0
- _ZTVN9PolkitQt13Gui20ActionButtonsPrivateE@Base 0.99.0
  _ZTVN9PolkitQt13Gui6ActionE@Base 0.99.0
