@@ -1,8 +1,9 @@
-polkit-qt-1 (0.99.0-3) UNRELEASED; urgency=low
+polkit-qt-1 (0.99.0-3) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * Update symbol files.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 01:21:14 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 00:31:01 +0300
 
 polkit-qt-1 (0.99.0-2) experimental; urgency=low
 
