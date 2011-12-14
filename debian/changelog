@@ -1,5 +1,8 @@
 polkit-qt-1 (0.99.0-4) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
+  * Modify CFLAGS/CXXFLAGS after including debian-qt-kde.mk so the changes are
+    not overwritten.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Dec 2011 14:58:26 +0100
 
