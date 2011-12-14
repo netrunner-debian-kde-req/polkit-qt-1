@@ -1,3 +1,8 @@
+polkit-qt-1 (0.99.0-4) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Dec 2011 14:58:26 +0100
+
 polkit-qt-1 (0.99.0-3) unstable; urgency=low
 
   [ Modestas Vainius ]
