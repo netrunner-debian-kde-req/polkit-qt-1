@@ -1,4 +1,6 @@
-polkit-qt-1 (0.99.0-4) UNRELEASED; urgency=low
+polkit-qt-1 (0.103.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Felix Geyer ]
   * Modify CFLAGS/CXXFLAGS after including debian-qt-kde.mk so the changes are
