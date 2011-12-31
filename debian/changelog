@@ -1,4 +1,4 @@
-polkit-qt-1 (0.103.0-1) UNRELEASED; urgency=low
+polkit-qt-1 (0.103.0-1) unstable; urgency=low
 
   * New upstream release.
     - fix annoying crash on shutdown. (Closes: #651815)
