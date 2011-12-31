@@ -1,13 +1,11 @@
 polkit-qt-1 (0.103.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - fix annoying crash on shutdown. (Closes: #651815)
 
   [ Felix Geyer ]
   * Modify CFLAGS/CXXFLAGS after including debian-qt-kde.mk so the changes are
     not overwritten.
-
-  [ Scott Kitterman ]
-  * Add fix_exit_crash.diff from upstream (Closes: #651815)
 
   [ Fathi Boudra ]
   * Update debian/compat: bump to 8.
