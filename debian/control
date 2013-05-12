@@ -17,6 +17,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/polkit-qt-1.git
 Package: libpolkit-qt-1-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libpolkit-qt-1-1 (= ${binary:Version}), libqt4-dev, ${misc:Depends}
 Description: PolicyKit-qt-1 development files
  PolicyKit is an application-level toolkit for defining and handling the policy
@@ -33,6 +34,8 @@ Description: PolicyKit-qt-1 development files
 
 Package: libpolkit-qt-1-1
 Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit
 Description: PolicyKit-qt-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
