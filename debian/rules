@@ -3,6 +3,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
 dh = --list-missing
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
@@ -10,4 +12,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 export CFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 export CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 
-.PHONY: override_dh_auto_test
+override_dh_auto_configure:
+	$(overridden_command) -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)
+
+.PHONY: override_dh_auto_test override_dh_auto_configure
