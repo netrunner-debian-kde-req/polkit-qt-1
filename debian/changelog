@@ -12,6 +12,7 @@ polkit-qt-1 (0.103.0-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Simplify watch file.
   * Bump priority from extra to optional.
+  * Fix Vcs-* headers.
 
  -- Felix Geyer <fgeyer@debian.org>  Sun, 12 May 2013 11:48:56 +0200
 
