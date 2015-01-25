@@ -27,6 +27,7 @@ polkit-qt-1 (0.112.0-1~) UNRELEASED; urgency=low
   * Update copyright information.
   * Add basic autopkgtests support.
   * Update symbols files.
+  * Update build dependencies to follow cmake.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 17:16:11 +0100
 

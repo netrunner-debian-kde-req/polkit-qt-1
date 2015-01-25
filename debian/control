@@ -3,12 +3,12 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: automoc,
-               cmake,
+               cmake (>= 2.8.11),
                debhelper (>= 9),
                libpolkit-agent-1-dev (>= 0.98),
                libpolkit-gobject-1-dev (>= 0.98),
-               libqt4-dev,
-               qtbase5-dev,
+               libqt4-dev (>= 4:4.4.0),
+               qtbase5-dev (>= 5.1.0),
                pkg-kde-tools (>= 0.11)
 Standards-Version: 3.9.6
 Section: libs
