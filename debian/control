@@ -12,6 +12,7 @@ Build-Depends: automoc,
                pkg-kde-tools (>= 0.11)
 Standards-Version: 3.9.6
 Section: libs
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kdesupport/polkit-qt-1
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/polkit-qt-1.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/polkit-qt-1.git
