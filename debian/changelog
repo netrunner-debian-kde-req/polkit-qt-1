@@ -1,8 +1,8 @@
-polkit-qt-1 (0.112.0-2~) UNRELEASED; urgency=medium
+polkit-qt-1 (0.112.0-2) experimental; urgency=medium
 
   * Add systemd as an alternative to the deprecated consolekit.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 20:41:54 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 20:46:28 +0100
 
 polkit-qt-1 (0.112.0-1) experimental; urgency=low
 
