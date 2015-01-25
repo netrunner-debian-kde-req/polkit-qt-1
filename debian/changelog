@@ -20,6 +20,7 @@ polkit-qt-1 (0.112.0-1~) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add myself as Uploader.
   * Add Homepage field.
+  * Add qt5 packages.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 17:16:11 +0100
 

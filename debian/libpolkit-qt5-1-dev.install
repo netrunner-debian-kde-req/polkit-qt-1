@@ -1,0 +1,4 @@
+usr/include/polkit-qt5-1/*
+usr/lib/*/cmake/PolkitQt5-1/*
+usr/lib/*/libpolkit-qt5-*-1.so
+usr/lib/*/pkgconfig/*
