@@ -39,7 +39,7 @@ Package: libpolkit-qt-1-1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit
+Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit | systemd
 Description: PolicyKit-qt-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
@@ -73,7 +73,7 @@ Description: PolicyKit-qt5-1 development files
 
 Package: libpolkit-qt5-1-1
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit
+Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit | systemd
 Description: PolicyKit-qt5-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
