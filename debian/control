@@ -4,7 +4,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: automoc,
                cmake,
-               debhelper (>= 8.0.0),
+               debhelper (>= 9),
                libpolkit-agent-1-dev (>= 0.98),
                libpolkit-gobject-1-dev (>= 0.98),
                libqt4-dev,
