@@ -1,3 +1,9 @@
+polkit-qt-1 (0.112.0-3) UNRELEASED; urgency=medium
+
+  * Fix my previous systemd dependency. Thanks to Ansgar Burchardt.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Apr 2015 17:26:47 +0200
+
 polkit-qt-1 (0.112.0-2) experimental; urgency=medium
 
   * Add systemd as an alternative to the deprecated consolekit.
