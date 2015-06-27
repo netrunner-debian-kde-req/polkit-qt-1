@@ -1,15 +1,17 @@
 Source: polkit-qt-1
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>, Maximiliano Curia <maxy@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: automoc,
                cmake (>= 2.8.11),
                debhelper (>= 9),
                libpolkit-agent-1-dev (>= 0.98),
                libpolkit-gobject-1-dev (>= 0.98),
                libqt4-dev (>= 4:4.4.0),
-               qtbase5-dev (>= 5.1.0),
-               pkg-kde-tools (>= 0.11)
+               pkg-kde-tools (>= 0.11),
+               qtbase5-dev (>= 5.1.0)
 Standards-Version: 3.9.6
 Section: libs
 XS-Testsuite: autopkgtest
@@ -39,7 +41,9 @@ Package: libpolkit-qt-1-1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, libpam-systemd [linux-any] | consolekit
+Depends: libpam-systemd [linux-any] | consolekit,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: PolicyKit-qt-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
@@ -76,7 +80,7 @@ Package: libpolkit-qt5-1-1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, consolekit | systemd
+Depends: consolekit | systemd, ${misc:Depends}, ${shlibs:Depends}
 Description: PolicyKit-qt5-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
