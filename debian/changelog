@@ -44,24 +44,6 @@ polkit-qt-1 (0.112.0-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 18:52:37 +0100
 
-polkit-qt-1 (0.103.0-2) UNRELEASED; urgency=low
-
-  [ Iain Lane ]
-  * Add Depends on consolekit, since we're using its D-Bus API.
-
-  [ Felix Geyer ]
-  * Convert package to multiarch, based on a patch from Daniel Schaal.
-    (Closes: #636067)
-  * Bump Standards-Version to 3.9.4, no changes needed.
-  * Add watch file, thanks to Bart Martens.
-
-  [ Pino Toscano ]
-  * Simplify watch file.
-  * Bump priority from extra to optional.
-  * Fix Vcs-* headers.
-
- -- Felix Geyer <fgeyer@debian.org>  Sun, 12 May 2013 11:48:56 +0200
-
 polkit-qt-1 (0.103.0-1) unstable; urgency=low
 
   * New upstream release.
