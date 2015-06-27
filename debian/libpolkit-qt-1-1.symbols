@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.99.0 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 0.112.0 amd64
 libpolkit-qt-agent-1.so.1 libpolkit-qt-1-1 #MINVER#
 * Build-Depends-Package: libpolkit-qt-1-dev
  _ZN9PolkitQt15Agent11AsyncResult12setCompletedEv@Base 0.99.0
@@ -216,6 +216,7 @@ libpolkit-qt-core-1.so.1 libpolkit-qt-1-1 #MINVER#
  _ZNK9PolkitQt117ActionDescription9vendorUrlEv@Base 0.99.0
  _ZNK9PolkitQt117UnixGroupIdentity3gidEv@Base 0.99.0
  _ZNK9PolkitQt118UnixProcessSubject3pidEv@Base 0.99.0
+ _ZNK9PolkitQt118UnixProcessSubject3uidEv@Base 0.112.0
  _ZNK9PolkitQt118UnixProcessSubject9startTimeEv@Base 0.99.0
  _ZNK9PolkitQt118UnixSessionSubject9sessionIdEv@Base 0.99.0
  _ZNK9PolkitQt120SystemBusNameSubject4nameEv@Base 0.99.0

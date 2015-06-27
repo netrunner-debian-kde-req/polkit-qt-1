@@ -1,3 +1,49 @@
+polkit-qt-1 (0.112.0-3) UNRELEASED; urgency=medium
+
+  * Fix my previous systemd dependency. Thanks to Ansgar Burchardt.
+  * Update watch file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Apr 2015 17:26:47 +0200
+
+polkit-qt-1 (0.112.0-2) experimental; urgency=medium
+
+  * Add systemd as an alternative to the deprecated consolekit.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 20:46:28 +0100
+
+polkit-qt-1 (0.112.0-1) experimental; urgency=low
+
+  [ Iain Lane ]
+  * Add Depends on consolekit, since we're using its D-Bus API.
+
+  [ Felix Geyer ]
+  * Convert package to multiarch, based on a patch from Daniel Schaal.
+    (Closes: #636067)
+  * Bump Standards-Version to 3.9.4, no changes needed.
+  * Add watch file, thanks to Bart Martens.
+
+  [ Pino Toscano ]
+  * Simplify watch file.
+  * Bump priority from extra to optional.
+  * Fix Vcs-* headers.
+
+  [ Maximiliano Curia ]
+  * New upstream release (0.112.0).
+  * Bump debhelper compat and build dep to 9.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Add myself as Uploader.
+  * Add Homepage field.
+  * Add qt5 packages.
+  * Update install files.
+  * Update watch file.
+  * Set rules to build the source twice.
+  * Update copyright information.
+  * Add basic autopkgtests support.
+  * Update symbols files.
+  * Update build dependencies to follow cmake.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 25 Jan 2015 18:52:37 +0100
+
 polkit-qt-1 (0.103.0-2) UNRELEASED; urgency=low
 
   [ Iain Lane ]
