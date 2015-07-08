@@ -1,6 +1,6 @@
 libpolkit-qt5-core-1.so.1 libpolkit-qt5-1-1 #MINVER#
- _ZN10QDBusErrorD1Ev@Base 0.112.0
- _ZN10QDBusErrorD2Ev@Base 0.112.0
+ (optional=gccinternal)_ZN10QDBusErrorD1Ev@Base 0.112.0
+ (optional=gccinternal)_ZN10QDBusErrorD2Ev@Base 0.112.0
  _ZN9PolkitQt116UnixUserIdentity6setUidEj@Base 0.112.0
  _ZN9PolkitQt116UnixUserIdentityC1EP15_PolkitUnixUser@Base 0.112.0
  _ZN9PolkitQt116UnixUserIdentityC1ERK7QString@Base 0.112.0
