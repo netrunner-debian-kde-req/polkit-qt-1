@@ -1,9 +1,9 @@
-polkit-qt-1 (0.112.0-4~) UNRELEASED; urgency=medium
+polkit-qt-1 (0.112.0-4) unstable; urgency=medium
 
   * Update symbols files for gcc5 compatibility. (Closes: #791734)
     Thanks to Martin Michlmayr
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 08 Jul 2015 09:09:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Aug 2015 11:59:55 +0200
 
 polkit-qt-1 (0.112.0-3) unstable; urgency=medium
 
