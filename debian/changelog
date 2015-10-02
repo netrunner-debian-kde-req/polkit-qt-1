@@ -1,6 +1,7 @@
 polkit-qt-1 (0.112.0-5~) UNRELEASED; urgency=medium
 
-  * 
+  * Apply the same Depends used in libpolkit-qt-1-1. (Closes: #800666)
+    Thanks to Michael Biebl
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Oct 2015 12:36:14 +0200
 

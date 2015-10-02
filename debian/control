@@ -80,7 +80,7 @@ Package: libpolkit-qt5-1-1
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: consolekit | systemd, ${misc:Depends}, ${shlibs:Depends}
+Depends: libpam-systemd [linux-any] | consolekit, ${misc:Depends}, ${shlibs:Depends}
 Description: PolicyKit-qt5-1 library
  PolicyKit is an application-level toolkit for defining and handling the policy
  that allows unprivileged processes to speak to privileged processes.
